@@ -12,15 +12,17 @@
     <div class="signup">
         <form>
             <h2>Register</h2>
-            <p>Kindly Register and get acess to all resources</p>
-            <input type="text" placeholder="Enter your name" class="inp">
-            <input type="email" placeholder="Enter your email" class="inp">
-            <input type="password" placeholder="Enter your password" class="inp">
-            <input type="password" placeholder="Confirm your password" class="inp">
-            <button class="btn">Signup</button>
+            <p>To get acess to all resources</p>
+            <input type="text" placeholder="Enter your name" class="inp" id="name">
+            <input type="email" placeholder="Enter your email" class="inp" id="email">
+            <input type="password" placeholder="Enter your password" class="inp" id="password">
+            <input type="password" placeholder="Confirm your password" class="inp" id="cpassword">
+            <button class="btn" onclick="check()" type="button">Signup</button>
+            <!-- <button class="btn" onclick="check()">Login</button> -->
             <p>Already has a account? <a href="./login.html">Login</a></p>
         </form>
     </div>
     </div>
+    <script src="./signup.js"></script>
 </body>
 </html>
